@@ -1,7 +1,7 @@
 const div2vid = document.getElementById("div2vids");
 const vid2 = document.getElementById("ide2");
 const biggercontainer = document.getElementById("biggercontainer");
-const x = document.getElementById("x");
+const x22 = document.getElementById("x22");
 
 div2vid.addEventListener("click", function () {
     idee2.classList.add("db");
@@ -9,7 +9,7 @@ div2vid.addEventListener("click", function () {
     
    
 });
-x.addEventListener("click", function () {
+x22.addEventListener("click", function () {
     idee2.classList.add("dn");
     idee2.classList.remove("db");
     
