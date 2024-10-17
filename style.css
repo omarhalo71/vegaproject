@@ -1,9 +1,5 @@
 .bigcontainer {
-  /* 
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box; */
+  
   background-image: url("images/top.png");
   overflow: hidden;
   padding: 50px 0;
@@ -79,8 +75,8 @@ div.vidc {
 
 
   position: fixed;
-  bottom: 50%;
-  right: 50%;
+  bottom: 40%;
+  right: 40%;
   width: 150px;
   z-index: 99;
   justify-content: center;
@@ -133,72 +129,11 @@ button:hover {
 
 }
 
-/* .sec2box1component{
-        display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-  border: 2px solid #ff6666;
-  border-radius: 10px;
-  
-  padding: 5px 0;
-  background-color: #ff6666;
-  
-    }
-    .sec2box1text{
-       
-        padding: 0;
-        height: 100%;
-        text-align: center;
-        font-size: 28px;
-        color: #fff;
-        margin-bottom: 10px;
-       
-        width: 100%;
-    }
-    .sec2box1{
-        
-        align-items:baseline;
-        margin: 20px 0 20px;
-        justify-content: baseline;
-        box-sizing: border-box;
-    }
-    .sec2contenee{
-        display: flex;
-        font-size: 28px;
-  color: #fff;
-    }
-    .sec2contenee{
-        display: flex;
-        align-items:baseline;
-        margin: 20px 0 20px;
-  flex-direction: row;
-text-align: center;
-       
-    }
-    .sec2box1a{
-        display: flex;
-        font-size: 28px;
-  color: #fff;
-    }
-    .sec2box1component{
-        display: flex;
-        font-size: 28px;
-  color: #fff;
-    }
-    .sec2box1component.img{
-        display: flex;
-        
-    }
-.sec2bigcontener{
-    display: flex;
-  flex-direction: row;
-text-align: center;
-} */
+
 
 .sec2box1component img {
   width: 60px;
-  /* حجم الأيقونة */
+ 
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
@@ -217,7 +152,7 @@ text-align: center;
 
 .sec2box1text p {
   font-size: 16px;
-  /* حجم النص */
+  
   margin: 10px 0 0;
   line-height: 1.5;
   color: white;
@@ -229,7 +164,7 @@ text-align: center;
 .sec2contenee {
   display: flex;
   flex-wrap: wrap-reverse;
-  /* هذا يضمن أن العناصر تُلف إذا لم يكن هناك مساحة كافية */
+ 
   align-items: baseline;
   margin: 20px 0 20px;
   font-size: 28px;
@@ -246,7 +181,7 @@ text-align: center;
   color: white;
   border-radius: 15px;
   width: 300px;
-  /* حجم الكارد */
+  
   padding: 20px;
   margin: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -272,7 +207,7 @@ text-align: center;
 
   .card {
     width: 30%;
-    /* حجم الكارد على الشاشات الأكبر */
+   
   }
 }
 
@@ -1428,22 +1363,22 @@ p {
 
   .fdiv2 {
     width: 100%;
-
+    
   }
 
   .fdiv3 {
     width: 100%;
-
+  
   }
 
   .fdiv4 {
     width: 100%;
-
+   
   }
 
   .fdiv5 {
     width: 100%;
-
+  
   }
 
   .fdiv5mail {
@@ -1465,8 +1400,8 @@ p {
 
 .vidc {
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  align-items: end;
+  justify-content: end;
 }
 
 .bigcontide {
@@ -1727,4 +1662,28 @@ display: flex;
 justify-content: center;
 align-items: center;
 position: unset;
+}
+@media (max-width: 1451px) {
+  .adivs{
+height: 50%;
+  }
+  
+  }
+ 
+  @media (max-width: 768px) {
+    .adiv1, .adiv2, .adiv3 {
+        margin: 5px 0; 
+        padding: 10px; 
+        font-size: 14px; 
+    }
+}
+@media (max-width: 768px) {
+  .nav {
+      font-size: 16px; 
+  }
+}
+.btn {
+  padding: 15px 20px; 
+  font-size: 18px; 
+  border-radius: 5px; 
 }
